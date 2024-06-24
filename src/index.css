@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+    background-color: #e2fdfd;
+    /* background: url(/src/images/loop-studios.svg); */
+}
