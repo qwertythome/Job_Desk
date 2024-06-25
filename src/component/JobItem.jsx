@@ -19,7 +19,7 @@ const JobItem = ({ job }) => {
                     <JobList list={job}/>
                 </div>
             </div>
-            <div className='flex align-center items-end max-[630px]:justify-center max-[630px]:grid max-[630px]:grid-rows-2 max-[630px]:grid-flow-col'>
+            <div className='flex gap-4 align-center items-end max-[630px]:justify-center max-[630px]:grid max-[630px]:grid-rows-2 max-[630px]:grid-flow-col'>
                 {job.languages.map((language, index) => (
                     <div key={index} className='h-10 font-bold flex items-center bg-[#e2fdfd] text-[#229795] rounded-xl mb-2 px-4 hover:bg-[#229795] hover:text-[#e2fdfd] cursor-pointer'>
                         {language}
