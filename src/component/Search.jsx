@@ -18,16 +18,16 @@ const Search = () => {
     const newLanguage =language.filter((_, i)=>i !== index)
 
     setLanguage(newLanguage);
-      
+
     setJobitem(data.filter(job =>
       newLanguage.every(lang => job.languages.includes(lang))
     ));
   }
   return (
     <section className="flex justify-center">
-      <div className="flex bg-white c w-4/6 rounded-xl -mt-10 p-8 justify-between">
+      <div className="flex bg-white c w-4/6 rounded-xl -mt-10 p-8 justify-between  ">
 
-      <div className="flex items-center text-black">
+      <div className="flex  items-center text-black  max-[630px]:grid max-[630px]:grid-rows-1  max-[630px]:gap-4">
           {language.map((lang, index) => (
             <div key={index} className='text-[#e2fdfd] bg-[#6ecee1] flex flex-row justify-center p-1 items-center align-center rounded-2xl mr-2'>
               <span className='p-2'>{lang}</span> 
