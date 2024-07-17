@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-#root{
+body{
     background-color: #e2fdfd;
     /* background: url(/src/images/loop-studios.svg); */
 }
-/* HTML: <div class="loader"></div> */
+
 .loader {
     width: 60px;
     aspect-ratio: 1;
