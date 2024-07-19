@@ -1,8 +1,8 @@
 import React from 'react';
 import { LanguageProvider } from './provider/Language';
-import Search from "./component/Search"
-import Job from "./component/Job"
-import Nav from "./component/Nav"
+import Search from "./components/Search"
+import Job from "./components/Job"
+import Nav from "./components/Nav"
 
 const App = () => {
   return (
